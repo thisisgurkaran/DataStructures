@@ -62,6 +62,8 @@ class BST {
     }
     return searchNode;
   }
+
+  //tree traversal is pending
 }
 
 const b = new BST();

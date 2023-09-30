@@ -3,6 +3,7 @@
       "target": "es5",
       "module": "commonjs",
       "sourceMap": true,
-      "outDir": "./lib"
+      "outDir": "./lib",
+      "lib": ["es5", "es6", "dom"], 
     }
   }
