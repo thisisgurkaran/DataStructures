@@ -1,5 +1,4 @@
-type GraphNode = string | number;
-
+import { GraphNode } from "./Types";
 // Map is  node -> Node[]
 // this each node is mapped to to the array of nodes that it is connected to.
 class Graph<T> {
