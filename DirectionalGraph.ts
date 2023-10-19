@@ -39,14 +39,15 @@ export class DirectionalGraph {
       }
     };
     dfs(startNode);
+    console.log(stack);
     return hasCycle;
   }
 }
-
+// need to cover some algos - bellman ford, dijakstras, topological sort, dfs and bfs
 const myGraph = new DirectionalGraph();
 myGraph.addEdge("A", "B");
 myGraph.addEdge("B", "C");
 myGraph.addEdge("C", "D");
 myGraph.addEdge("C", "A");
-
+console.log(myGraph);
 console.log(myGraph.hasCycle("A"));

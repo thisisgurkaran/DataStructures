@@ -26,6 +26,11 @@ myHeap.insert(100);
 
 myHeap.insert(45);
 
+myHeap.insert(90);
+
+myHeap.insert(125);
+myHeap.insert(20);
+
 console.log(myHeap);
 
 //    45
